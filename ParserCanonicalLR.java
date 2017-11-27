@@ -622,13 +622,7 @@ public class ParserCanonicalLR {
     
      public void crearMainParser(){
        String scanner_total = (
-            "/**"+"\n"+
-            " * Nombre del archivo: "+this.nombreArchivo+"Parser.java"+"\n"+
-            " * Universidad del Valle de Guatemala"+"\n"+
-            " * Pablo Diaz 13203 " + "\n"+
-            " * Descripción: Tercer proyecto. Generador de ParserMain"+"\n"+
-            "**/"+"\n"+
-            ""+"\n"+
+           
             ""+"import java.io.File;"+"\n"+
             "import java.util.HashMap;"+"\n"+
             ""+"\n"+
@@ -658,13 +652,6 @@ public class ParserCanonicalLR {
     public void generarParser() {
 
         String scanner_total = (
-            "/**"+"\n"+
-            " * Nombre del archivo: "+this.nombreArchivo+"Parser.java"+"\n"+
-            " * Universidad del Valle de Guatemala"+"\n"+
-            " * Pablo Diaz 13203 " + "\n"+
-            " * Descripción: Tercer proyecto. Generador de Parser"+"\n"+
-            "**/"+"\n"+
-            ""+"\n"+
            
                "import java.util.HashSet;"+"\n"+
             "import java.util.ArrayList;"+"\n"+
